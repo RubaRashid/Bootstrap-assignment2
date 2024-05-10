@@ -1,0 +1,109 @@
+@media screen and (max-width: 500px) {
+    .navbar {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    div {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+   
+
+    section.main {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    img {
+        width: 100%;
+    }
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.967) 0%, rgba(229, 218, 233, 1) 74%, rgb(187, 116, 245) 100%);
+}
+/* HEADER */
+header.navbar {
+    padding: 3px 10px;
+    background-color: transparent;
+
+}
+
+header .nav-logo {
+    margin: 1rem;
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 5rem;
+}
+
+.nav-list {
+    overflow: hidden;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.btn-nav{
+    color: #000;
+    background-color: transparent;
+    width:150px ;
+    height: 40px;
+}
+
+div {
+    float: right;
+    margin-right: 5rem;
+}
+
+/* main section */
+
+.main {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    display: inline-block;
+    /* display: flex;
+    flex-direction: row-reverse; */
+}
+
+.main-image {
+
+    margin-left: 3rem;
+    width: 600px;
+
+}
+
+.main-content {
+
+    text-align: left;
+}
+
+button.btn-main {
+    width: 150px;
+    background: rgb(28, 17, 251);
+    background: linear-gradient(90deg, rgba(28, 17, 251, 1) 0%, rgba(124, 12, 251, 1) 48%, rgba(137, 15, 250, 1) 54%, rgba(140, 16, 247, 1) 63%, rgba(140, 4, 251, 1) 73%, rgba(140, 4, 251, 1) 85%, rgba(140, 4, 251, 1) 100%);
+}
